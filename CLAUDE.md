@@ -13,7 +13,7 @@ When you learn something non-obvious about this project that future sessions wou
 **Somrig Inlay Sheet Builder** — a browser-based tool for building inlay sheets (likely for woodworking/crafts). Currently in early scaffold phase.
 
 - **Repo:** `somrig-inlay-sheet-builder`
-- **Linear project:** LQM (issue prefix `LQM-`)
+- **Linear:** team `LQM` (Personal, issue prefix `LQM-`), project `P-LQM-9` (Somrig Button Inlay Designer). Pass the project ID, not the name, when creating issues.
 - **Deployment:** Netlify (`netlify.toml` present, `publish: dist`, `buildCommand: npm run build`). Netlify site ID: `6285caf2-813a-4ad5-8ca8-4b486f32b147`. `vercel.json` kept for reference but Netlify is the active platform.
 - **Branch convention:** `<author>/<issue-id>-<slug>`, e.g. `cyrus/lqm-68-project-setup-vite-vue-3-tailwind-mdi`
 - **PR convention:** title must include Linear issue identifier, e.g. `LQM-68 Project setup: Vite + Vue 3 + Tailwind + MDI`
